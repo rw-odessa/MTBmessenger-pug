@@ -1,0 +1,17 @@
+﻿doctype html
+html(lang="ru")
+head
+  meta(charset="UTF-8")
+  title= "Send Message"
+body
+ form(method="post" enctype="application/x-www-form-urlencoded" action="/message")
+    div(style="text-align: center")
+      select(name="groupOrIpAdres")
+        each group in groups
+          option(value=group) Группа: #{group}
+        each socket in sockets
+          option(value=socket.remoteAddress) IP: #{socket.remoteAddress.slice(7)}
+        input(type="text" name="message" size="80" placeholder="Введите сообщение" required)
+        input(type="submit")
+        p Подключенных пользователей: #{sockets.length}
+        p: a(href="/log") Лог работы системы.

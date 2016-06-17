@@ -1,0 +1,15 @@
+{
+  "appenders": [
+    { 
+      "type": "console" 
+    },
+    {
+      "type": "file",
+      "filename": "public/log/MTBmessenger.log",
+      "maxLogSize": 512000,
+      "backups": 3,
+      "category": "console"
+    }
+  ],
+  "replaceConsole": "true"
+}

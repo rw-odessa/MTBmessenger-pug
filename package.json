@@ -1,0 +1,34 @@
+{
+  "name": "mtb-messenger",
+  "version": "0.0.3",
+  "description": "client-server tcp based message system",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "log4js": "^0.6.29",
+    "serve-index": "^1.7.2",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-nodemon": "^2.1.0",
+    "jshint": "^2.9.2",
+    "log4js": "^0.6.36",
+    "run-sequence": "^1.2.1",
+    "serve-index": "^1.7.3",
+    "swig": "^1.4.2"
+  },
+  "scripts": {
+    "test": "server.js",
+    "start": "node server.js"
+  },
+  "author": "ua053903",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rw-odessa/MTBmessenger-pug.git"
+  }
+}
