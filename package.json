@@ -7,7 +7,7 @@
     "body-parser": "^1.14.1",
     "log4js": "^0.6.29",
     "serve-index": "^1.7.2",
-    "swig": "^1.4.2"
+    "pug": "^2.0.0-beta3"
   },
   "devDependencies": {
     "body-parser": "^1.15.1",
@@ -17,9 +17,9 @@
     "gulp-nodemon": "^2.1.0",
     "jshint": "^2.9.2",
     "log4js": "^0.6.36",
+    "pug": "^2.0.0-beta3",
     "run-sequence": "^1.2.1",
-    "serve-index": "^1.7.3",
-    "swig": "^1.4.2"
+    "serve-index": "^1.7.3"
   },
   "scripts": {
     "test": "server.js",
